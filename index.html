@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="web.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  
+    <title>Portfolio | Codeygodd</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Pandey</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <div class="text-center m-top-50">
+                <a class="btn line-btn-dark btn-icon btn-radius aa " href="my cv-1.jpg" title=""<i class="fa fa-download" download></i> Download</a>
+            </div>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Bishwas Pandey</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Experienced frontend developer with a passion for creating visually stunning
+                   and user-friendly websites.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="my cv-1.jpg"><button class="btn blue-btn">Hire Me</button></a>
+        
+            </div>
+           
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="photo.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                       frameworks and libraries,which allows me to implement interactive features.
+                       Additionally, I have experirence working with often dedicated hiers like
+                       WordPress.
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>                   
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Completed</h3>
+                <label>15+ Finished Projects</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Clients</h3>
+                <label>25+ Happy Clients</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Experience</h3>
+                <label>2+ Years in the field</label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+<center>
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="contact-form-container">
+            <form id="contactForm">
+                <h2>Contact Us</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit" ">Send Message</button>
+                <p id="responseMessage"></p>
+            </form>
+        </div>
+
+
+
+       </section>
+</center>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Bishwas pandey .</p>
+        </div>
+
+        <div class="footer-social-icons">
+           <a href="https://www.youtube.com/@Snappyclips-r5l"> <div class="icon"><i class="uil uil-youtube"></i></div></a>
+           <a href="https://www.linkedin.com/feed/"> <div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+           <a href="https://www.instagram.com/"> <div class="icon"><i class="uil uil-instagram"></i></div></a>
+           <a href="https://github.com/Codeygodd"> <div class="icon"><i class="uil uil-github-alt"></i></div></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Bishwas Pandey</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init("Cc7BpI-iZig7Q1scs"); // Replace with your actual user ID from EmailJS
+    </script>
+    
+    <script src="web.js"></script>
+  
+</body>
+</html>
